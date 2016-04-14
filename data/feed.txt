@@ -206,3 +206,29 @@ Feed Entries:
 	Date: Fri Feb 19 21:23:13 GMT 2016
 	URI: 582284
 	Link: http://articlefeeds.nasdaq.com/~r/nasdaq/categories/~3/VvWTcesijQI/forex-eurusd-holds-steady-near-2-week-lows-cm582284
+
+
+------ Thu Apr 14 20:06:07 BST 2016 ------
+
+
+New Feed
+
+	Feed Author: null
+	Feed Title: Latest Articles in Forex and Currencies
+	Feed Copyright:null
+
+Keywords used in filtering entries in feed: 
+
+USDEURdollarGBPpound
+
+Feed Entries: 
+
+	Title: Investing.com sentiment index: speculators less bullish on U.S. dollar
+	Date: Mon Feb 22 16:23:22 GMT 2016
+	URI: 582783
+	Link: http://articlefeeds.nasdaq.com/~r/nasdaq/categories/~3/oIVLQ9FRClw/investingcom-sentiment-index-speculators-less-bullish-on-us-dollar-cm582783
+
+	Title: Forex - EUR/USD holds steady near 2-week lows
+	Date: Fri Feb 19 21:23:13 GMT 2016
+	URI: 582284
+	Link: http://articlefeeds.nasdaq.com/~r/nasdaq/categories/~3/VvWTcesijQI/forex-eurusd-holds-steady-near-2-week-lows-cm582284

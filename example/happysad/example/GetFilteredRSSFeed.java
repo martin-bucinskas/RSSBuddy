@@ -20,7 +20,6 @@ public class GetFilteredRSSFeed
 		TradingBuddy.logToFile(true);
 	}
 	
-	@SuppressWarnings("unchecked")
 	public void runExample()
 	{
 		String path = "data/feed.txt";
@@ -48,7 +47,13 @@ public class GetFilteredRSSFeed
 			Utility.writeToFile(path, "\nKeywords used in filtering entries in feed: \n");
 			Utility.writeToFile(path, parser.getKeywords().toArray(new String[parser.getKeywords().size()]));
 			
-			List<SyndEntry> filteredEntries = parser.getFilteredEntries(feed.getEntries());
+			/*
+			 * Pass feed.getEntries() to parser.getFilteredEntries as a generic type
+			 * to prevent unchecked type errors.
+			 * parser.getFilteredEntries accepts List<?>.
+			 */
+			List<?> entryList = feed.getEntries();
+			List<SyndEntry> filteredEntries = parser.getFilteredEntries(entryList);
 			
 			Utility.writeToFile(path, "\nFeed Entries: ");
 			

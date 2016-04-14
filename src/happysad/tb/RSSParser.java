@@ -17,12 +17,14 @@ public class RSSParser
 		keywords = new ArrayList<String>();
 	}
 	
-	public List<SyndEntry> getFilteredEntries(List<SyndEntry> entries)
+	public List<SyndEntry> getFilteredEntries(List<?> entries)
 	{
 		List<SyndEntry> filteredEntries = new ArrayList<SyndEntry>();
 		
-		for(SyndEntry entry : entries)
+		for(Object entryObject : entries)
 		{
+			SyndEntry entry = (SyndEntry)entryObject;
+			
 			for(String keyword : keywords)
 			{
 				if(searchTitle)
