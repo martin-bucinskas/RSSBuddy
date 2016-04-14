@@ -45,7 +45,11 @@ public class GetFilteredRSSFeed
 			Utility.writeToFile(path, "\n\n------ " + new Date().toString() + " ------\n\n");
 			Utility.writeToFile(path, "New Feed\n", "\n\tFeed Author: " + feed.getAuthor(), "\n\tFeed Title: " + feed.getTitle(), "\n\tFeed Copyright:" + feed.getCopyright());
 			Utility.writeToFile(path, "\nKeywords used in filtering entries in feed: \n");
-			Utility.writeToFile(path, parser.getKeywords().toArray(new String[parser.getKeywords().size()]));
+			
+			StringBuilder sb = new StringBuilder();
+			for(String keyword : parser.getKeywords())
+				sb.append(keyword).append(' ');
+			Utility.writeToFile(path, sb.toString());
 			
 			/*
 			 * Pass feed.getEntries() to parser.getFilteredEntries as a generic type
