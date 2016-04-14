@@ -24,6 +24,8 @@ public class GetFilteredRSSFeed
 	{
 		String path = "data/feed.txt";
 		String forexURL = "http://articlefeeds.nasdaq.com/nasdaq/categories?category=Forex%20and%20Currencies&format=xml";
+		String yahooFinance = "http://chartapi.finance.yahoo.com/instrument/1.0/%5Ensei/chartdata;type=quote;range=1d/xml/";
+		String bbci = "http://feeds.bbci.co.uk/news/world/rss.xml?edition=uk";
 		
 		if(!Utility.doesDirExist("data"))
 			Utility.createDir("data");
@@ -33,10 +35,10 @@ public class GetFilteredRSSFeed
 		
 		try
 		{
-			reader = new RSSReader(forexURL);
+			reader = new RSSReader(bbci);
 			parser = new RSSParser();
 			
-			parser.populateKeywordList("USD", "EUR", "dollar", "GBP", "pound");
+			parser.populateKeywordList("USD", "EUR", "dollar", "GBP", "pound", "jeremy", "cameron");
 			
 			reader.connectToFeed();
 			

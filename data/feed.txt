@@ -258,3 +258,35 @@ Feed Entries:
 	Date: Fri Feb 19 21:23:13 GMT 2016
 	URI: 582284
 	Link: http://articlefeeds.nasdaq.com/~r/nasdaq/categories/~3/VvWTcesijQI/forex-eurusd-holds-steady-near-2-week-lows-cm582284
+
+
+------ Thu Apr 14 21:05:09 BST 2016 ------
+
+
+New Feed
+
+	Feed Author: null
+	Feed Title: BBC News - World
+	Feed Copyright:Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.
+
+Keywords used in filtering entries in feed: 
+
+USD EUR dollar GBP pound 
+
+Feed Entries: 
+
+
+------ Thu Apr 14 21:06:07 BST 2016 ------
+
+
+New Feed
+
+	Feed Author: null
+	Feed Title: BBC News - World
+	Feed Copyright:Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.
+
+Keywords used in filtering entries in feed: 
+
+USD EUR dollar GBP pound jeremy cameron 
+
+Feed Entries: 
