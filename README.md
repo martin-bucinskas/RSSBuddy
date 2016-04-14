@@ -1,11 +1,16 @@
-# Trading Buddy Library
+#RSSBuddy Java Library
 
-A Java library to aid alogrithmic and non algorithmic Forex trading and stock trading.
+A simple but powerful Java library for parsing RSS feed.
 
-Currently connects to an RSS feed and downloads entries with the input keywords. Can filter the entries by keywords 
-and store details to file.
+##Built Upon
 
-Dependencies:
+The library is built upon the following libraries. 
 
-ROME-1.0.jar: ROME is a set of RSS and Atom Utilities for Java that is open source under the Apache 2.0 license. http://rometools.github.io/rome/
-JDOM-1.1.3.jar: Java-based solution for accessing, manipulating, and outputting XML data from Java code. http://www.jdom.org/index.html
+Library | Version | Link | Description
+--------|---------|------|------------
+ROME    |1.0      |http://rometools.github.io/rome/|ROME library directly handles RSS standards.
+JDOM    |1.1.3    |http://www.jdom.org/index.html|JDOM allows manipulation of XML data.
+
+###Usage
+
+Check the example directory for the usage.
