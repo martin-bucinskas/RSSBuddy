@@ -1,6 +1,6 @@
 #RSSBuddy Java Library
 
-A simple but powerful Java library for parsing RSS feed.
+A simple but powerful Java library for parsing RSS feed. Currently does not work with CSV files and strangely with some XML RSS feeds (such as Yahoo!Finance XML).
 
 ##Built Upon
 
